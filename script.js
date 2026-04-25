@@ -305,8 +305,8 @@ const galleryData = [
   { type: 'image', src: 'restaurant gallery/pic1.jpeg' },
   { type: 'image', src: 'restaurant gallery/pic2.jpeg' },
   { type: 'image', src: 'restaurant gallery/pic3.jpeg' },
-  { type: 'image', src: 'restaurant gallery/image.png' },
-  { type: 'video', src: 'restaurant gallery/x.mp4' }
+  { type: 'image', src: 'restaurant gallery/image.png' }
+  // { type: 'video', src: 'restaurant gallery/x.mp4' }
   // You can add more images or videos here:
   // { type: 'video', src: 'restaurant gallery/sample.mp4' }
 ];
