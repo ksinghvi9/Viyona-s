@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Viyonas Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" onerror="this.src='https://images.pexels.com/photos/12737799/pexels-photo-12737799.jpeg'" class="banner" alt="Indian Sabjis and Dals" />
+    <div class="logo-container">
+      <div class="logo-wrapper">
+        <img src="image 1 (1).jpg" class="logo" alt="Viyonas Restaurant Logo" />
+      </div>
+    </div>
+    <h2>Viyonas Restaurant</h2>
+  </div>
+
+  <!-- Best Selling -->
+  <div class="card todays-special-card" id="todaysSpecialBlock">
+    <h2 class="section-title">Today's Special</h2>
+    <p class="section-subtitle">Our handpicked specials for you</p>
+    <div id="bestSelling" class="special-container">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <!-- Menu -->
+  <div class="card menu-card">
+    <h2 class="section-title">Menu</h2>
+    <p class="section-subtitle">Discover our delicious dishes</p>
+    
+    <!-- Category Pills -->
+    <div id="categoryContainer" class="category-container">
+      <!-- Injected by JS -->
+    </div>
+
+    <!-- Menu Items -->
+    <div id="menuContent" class="menu-content">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <!-- Bottom Hero Section -->
+  <div class="card hero-card">
+    <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg" class="hero-bg" alt="Restaurant Interior">
+    <div class="hero-overlay">
+      <h2>Best Place for Birthday<br>Celebration</h2>
+      <p>Contact : 97999777228</p>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <div class="card gallery-card-block">
+    <h2 class="section-title">Gallery</h2>
+    <p class="section-subtitle">Glimpses of Viyonas</p>
+    <div class="gallery-container" id="galleryContainer">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div class="card contact-card">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">Get in touch with us</p>
+    
+    <div class="contact-methods">
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Agrasen Nagar, Sanwar Road,<br>Fatehnagar, Dist Udaipur</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>97999777228</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>ronakmor1008@gmail.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-content">
+      <h3>Viyonas Restaurant</h3>
+      <p>Thank you for dining with us! Have a wonderful day.</p>
+    </div>
+  </div>
+
+  <!-- Floating Cart Summary -->
+  <div id="cartFloater" class="cart-floater" style="display: none;" onclick="toggleCart()">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span id="cartCountBadge" class="cart-badge">0</span>
+  </div>
+
+  <!-- Cart Modal -->
+  <div id="cartModalOverlay" class="cart-modal-overlay" onclick="toggleCart()"></div>
+  <div id="cartModal" class="cart-modal">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="close-cart" onclick="toggleCart()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div id="cartItemsList" class="cart-items-list">
+      <!-- Populated by JS -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-grand-total">
+        <span>Total Amount</span>
+        <span id="cartModalTotal">₹0</span>
+      </div>
+      <div class="cart-action-buttons">
+        <button class="show-waiter-btn" onclick="showCartToWaiter()">Show Cart to Waiter</button>
+        <button class="home-delivery-btn" onclick="homeDelivery()">Home delivery</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxOverlay" class="lightbox-overlay" onclick="closeLightbox()"></div>
+  <div id="lightboxModal" class="lightbox-modal">
+    <button class="close-lightbox" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+    <div id="lightboxContent" class="lightbox-content">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
