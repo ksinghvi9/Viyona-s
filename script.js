@@ -1,4 +1,16 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwhWlQ7efv9v-oQWZJaXymH_2pAVHaM7OoNoRQbpFU_XN-ceDQRkVe_t15VnATRFo-w/exec";
+/*
+  MENU DATA SOURCE:
+  To update the menu, edit the `menu.json` file in this directory.
+  - Make sure the file format remains valid JSON.
+  - To add a new item, copy an existing object and modify its fields:
+    {
+      "name": "NEW DISH",
+      "price": 150,
+      "category": "Soup",
+      "most selling": false,
+      "image": "https://url.to/image.jpg"
+    }
+*/
 
 let allData = [];
 let categoriesObj = {};
@@ -9,32 +21,21 @@ const placeholderImg = "https://images.pexels.com/photos/1640777/pexels-photo-16
 
 async function fetchMenu() {
   try {
-    const cachedData = sessionStorage.getItem("viyonasMenuData");
-    if (cachedData) {
-      allData = JSON.parse(cachedData);
-      renderBestSelling(allData);
-      processCategories(allData);
-      renderCategoryPills();
-      renderMenuItems(currentCategory);
-      return;
-    }
-
-    const res = await fetch(API_URL);
-    if (!res.ok) throw new Error("Failed to fetch menu");
+    const res = await fetch('./menu.json');
+    if (!res.ok) throw new Error("Failed to load local menu data");
+    
     const data = await res.json();
     allData = data;
     
-    // Cache the data to prevent re-fetching on navigation or scroll back
-    sessionStorage.setItem("viyonasMenuData", JSON.stringify(data));
-
     renderBestSelling(data);
     processCategories(data);
     renderCategoryPills();
-    renderMenuItems(currentCategory);
+    renderAllMenuItems();
+    selectCategory(currentCategory);
 
   } catch (err) {
-    console.error("Error fetching menu:", err);
-    document.getElementById("menuContent").innerHTML = "<p style='text-align:center; padding: 20px; color: #ff4a68;'>Failed to load menu. Please try refreshing.</p>";
+    console.error("Error loading menu:", err);
+    document.getElementById("menuContent").innerHTML = "<p style='text-align:center; padding: 20px; color: #ff4a68;'>Failed to load menu data. Please try refreshing.</p>";
     document.getElementById("bestSelling").innerHTML = "";
     document.getElementById("categoryContainer").innerHTML = "";
   }
@@ -95,7 +96,7 @@ function renderBestSelling(data) {
 
     return `
       <div class="special-item">
-        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
+        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" loading="lazy" />
         <p class="special-name">${capitalize(item.name)}</p>
         <div class="special-item-bottom">
           <p class="special-price">₹${item.price}</p>
@@ -129,52 +130,61 @@ function renderCategoryPills() {
   }).join("");
 }
 
-function renderMenuItems(catName) {
+function renderAllMenuItems() {
   const menuContainer = document.getElementById("menuContent");
-  const catData = categoriesObj[catName];
-
-  if (!catData) {
+  
+  if (Object.keys(categoriesObj).length === 0) {
     menuContainer.innerHTML = "<p>No items found.</p>";
     return;
   }
 
-  // We only show items for the selected category
-  menuContainer.innerHTML = `
-    <div class="menu-group">
-      ${catData.items.map(item => {
-        const imgSrc = getValidImg(item.image);
-        const itemQty = cart[item.name] ? cart[item.name].qty : 0;
-        
-        let btnHtml = '';
-        if (itemQty > 0) {
-          btnHtml = `
-            <div class="inline-qty-control" id="ctrl-menu-${sanitizeId(item.name)}">
-              <button class="qty-btn" onclick="updateItemQty('${encodeURIComponent(item.name)}', -1)">-</button>
-              <div class="qty-display">${itemQty}</div>
-              <button class="qty-btn" onclick="updateItemQty('${encodeURIComponent(item.name)}', 1)">+</button>
-            </div>
-          `;
-        } else {
-          btnHtml = `<button class="add-btn" id="btn-menu-${sanitizeId(item.name)}" onclick="addToCart('${encodeURIComponent(item.name)}', ${item.price || 0})">+ ADD</button>`;
-        }
+  let fullHtml = "";
 
-        return `
-          <div class="menu-item">
-            <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
-            <div class="item-details">
-              <h4 class="item-name">${capitalize(item.name)}</h4>
-              <div class="item-price-row">
-                <span class="item-price">₹${(item.price || 0).toFixed(2)}</span>
-                <div class="item-btn-container" id="container-menu-${sanitizeId(item.name)}">
-                  ${btnHtml}
-                </div>
+  for (const catName in categoriesObj) {
+    const catData = categoriesObj[catName];
+    
+    let catHtml = `<div class="menu-category-group" id="cat-group-${sanitizeId(catName)}" style="display: none;">`;
+    
+    catHtml += catData.items.map(item => {
+      const imgSrc = getValidImg(item.image);
+      const itemQty = cart[item.name] ? cart[item.name].qty : 0;
+      const encodedName = encodeURIComponent(item.name);
+      const price = item.price || 0;
+      
+      let btnHtml = '';
+      if (itemQty > 0) {
+        btnHtml = `
+          <div class="inline-qty-control">
+            <button class="qty-btn" onclick="updateItemQty('${encodedName}', -1)">-</button>
+            <div class="qty-display">${itemQty}</div>
+            <button class="qty-btn" onclick="updateItemQty('${encodedName}', 1)">+</button>
+          </div>
+        `;
+      } else {
+        btnHtml = `<button class="add-btn" onclick="addToCart('${encodedName}', ${price})">+ ADD</button>`;
+      }
+
+      return `
+        <div class="menu-item">
+          <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
+          <div class="item-details">
+            <h4 class="item-name">${capitalize(item.name)}</h4>
+            <div class="item-price-row">
+              <span class="item-price">₹${price.toFixed(2)}</span>
+              <div class="item-btn-container" id="container-menu-${sanitizeId(item.name)}">
+                ${btnHtml}
               </div>
             </div>
           </div>
-        `;
-      }).join("")}
-    </div>
-  `;
+        </div>
+      `;
+    }).join("");
+    
+    catHtml += `</div>`;
+    fullHtml += catHtml;
+  }
+
+  menuContainer.innerHTML = fullHtml;
 }
 
 function selectCategory(catName) {
@@ -185,8 +195,15 @@ function selectCategory(catName) {
   const activePill = document.getElementById(`pill-${sanitizeId(catName)}`);
   if (activePill) activePill.classList.add('active');
 
-  // Render items
-  renderMenuItems(catName);
+  // Toggle visibility of category groups instead of re-rendering
+  document.querySelectorAll('.menu-category-group').forEach(group => {
+    group.style.display = 'none';
+  });
+  
+  const activeGroup = document.getElementById(`cat-group-${sanitizeId(catName)}`);
+  if (activeGroup) {
+    activeGroup.style.display = 'block';
+  }
 }
 
 // ------ Cart Logic ------
@@ -199,6 +216,7 @@ function addToCart(encodedName, price) {
     cart[name].qty += 1;
   }
   updateCartUI();
+  updateInlineButtonUI(name);
 }
 
 function updateItemQty(encodedName, delta) {
@@ -210,6 +228,7 @@ function updateItemQty(encodedName, delta) {
     }
   }
   updateCartUI();
+  updateInlineButtonUI(name);
 }
 
 function updateCartUI() {
@@ -265,10 +284,39 @@ function updateCartUI() {
   }
 
   // Refresh inline buttons in UI without losing scroll state
-  renderBestSelling(allData);
-  if(currentCategory) {
-    renderMenuItems(currentCategory);
+  // Inline buttons are now updated surgically via updateInlineButtonUI
+}
+
+function updateInlineButtonUI(name) {
+  const itemQty = cart[name] ? cart[name].qty : 0;
+  let price = 0;
+  if (cart[name]) {
+    price = cart[name].price;
+  } else {
+    const item = allData.find(i => i.name === name);
+    if (item) price = item.price || 0;
   }
+
+  const encodedName = encodeURIComponent(name);
+  
+  let btnHtml = '';
+  if (itemQty > 0) {
+    btnHtml = `
+      <div class="inline-qty-control">
+        <button class="qty-btn" onclick="updateItemQty('${encodedName}', -1)">-</button>
+        <div class="qty-display">${itemQty}</div>
+        <button class="qty-btn" onclick="updateItemQty('${encodedName}', 1)">+</button>
+      </div>
+    `;
+  } else {
+    btnHtml = `<button class="add-btn" onclick="addToCart('${encodedName}', ${price})">+ ADD</button>`;
+  }
+
+  const specialContainer = document.getElementById(`container-special-${sanitizeId(name)}`);
+  if (specialContainer) specialContainer.innerHTML = btnHtml;
+
+  const menuContainer = document.getElementById(`container-menu-${sanitizeId(name)}`);
+  if (menuContainer) menuContainer.innerHTML = btnHtml;
 }
 
 function toggleCart() {

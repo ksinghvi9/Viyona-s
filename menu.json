@@ -1,0 +1,1297 @@
+[
+  {
+    "name": "VEG. MAN CHOW SOUP",
+    "price": 120,
+    "category": "Soup",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/34323310/pexels-photo-34323310.jpeg"
+  },
+  {
+    "name": "CREAM OF TOMATO SOUP",
+    "price": 110,
+    "category": "Soup",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/17302314/pexels-photo-17302314.jpeg"
+  },
+  {
+    "name": "HOT & SOUR SOUP",
+    "price": 120,
+    "category": "Soup",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/34624025/pexels-photo-34624025.jpeg"
+  },
+  {
+    "name": "MUSHROOM SOUP",
+    "price": 100,
+    "category": "Soup",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/5419043/pexels-photo-5419043.jpeg"
+  },
+  {
+    "name": "VEG CLEAR",
+    "price": 100,
+    "category": "Soup",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8738014/pexels-photo-8738014.jpeg"
+  },
+  {
+    "name": "MINT CORRIENDER",
+    "price": 120,
+    "category": "Soup",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PANEER CHILLI DRY",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9609837/pexels-photo-9609837.jpeg"
+  },
+  {
+    "name": "PANEER CHILLI GRAVY",
+    "price": 200,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9609837/pexels-photo-9609837.jpeg"
+  },
+  {
+    "name": "MANCHURIAN DRY",
+    "price": 170,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29631489/pexels-photo-29631489.jpeg"
+  },
+  {
+    "name": "MANCHURIAN GRAVY",
+    "price": 190,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://media.istockphoto.com/id/694050884/photo/gobi-manchurian-dry-or-with-gravy-popular-street-food-of-india-made-of-cauliflower-florets.jpg?s=1024x1024&w=is&k=20&c=CRSScfeXsrxW9nF5BEE6OmZHQAL_tXfEIR4EnotsT2M="
+  },
+  {
+    "name": "PANEER THREAD CHILI",
+    "price": 250,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "CHILLI GARLIC NOODLES",
+    "price": 190,
+    "category": "Chinese Starter",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg"
+  },
+  {
+    "name": "HAKKA NOODLES",
+    "price": 190,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/14457500/pexels-photo-14457500.jpeg"
+  },
+  {
+    "name": "SCHEZWAN NOODLES",
+    "price": 190,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/11762852/pexels-photo-11762852.jpeg"
+  },
+  {
+    "name": "VEG. FRY RICE",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8992927/pexels-photo-8992927.jpeg"
+  },
+  {
+    "name": "SCHEZWAN FRY RICE",
+    "price": 190,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/34668494/pexels-photo-34668494.jpeg"
+  },
+  {
+    "name": "MANCHURIAN FRY RICE",
+    "price": 220,
+    "category": "Chinese Starter",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/5409016/pexels-photo-5409016.jpeg"
+  },
+  {
+    "name": "CHINESE BHEL",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/36701462/pexels-photo-36701462.jpeg"
+  },
+  {
+    "name": "GOLD COIN ",
+    "price": 250,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "SPRING ROLL",
+    "price": 200,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12356601/pexels-photo-12356601.jpeg"
+  },
+  {
+    "name": "HARA BHARA KABAB",
+    "price": 170,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9557673/pexels-photo-9557673.jpeg"
+  },
+  {
+    "name": "PEANUT MASALA / CHANA ROAST",
+    "price": 160,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PANEER PAKODA",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/37019704/pexels-photo-37019704.jpeg"
+  },
+  {
+    "name": "VEG. PAKODA",
+    "price": 170,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/33104648/pexels-photo-33104648.jpeg"
+  },
+  {
+    "name": "HONEY CHILLI POTATO",
+    "price": 200,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8601177/pexels-photo-8601177.jpeg"
+  },
+  {
+    "name": "CRISPY CORN",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/18379774/pexels-photo-18379774.jpeg"
+  },
+  {
+    "name": "CHOWMEIN",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/3926121/pexels-photo-3926121.jpeg"
+  },
+  {
+    "name": "CHEESE BALLS",
+    "price": 220,
+    "category": "Chinese Starter",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/34692571/pexels-photo-34692571.jpeg"
+  },
+  {
+    "name": "PANEER 65 DRY",
+    "price": 180,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29631468/pexels-photo-29631468.jpeg"
+  },
+  {
+    "name": "FRY MOMOS",
+    "price": 150,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/28445587/pexels-photo-28445587.jpeg"
+  },
+  {
+    "name": "PANEER POTATO ROLLS",
+    "price": 160,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PANEER KATHI ROLL",
+    "price": 220,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737661/pexels-photo-12737661.jpeg"
+  },
+  {
+    "name": "CHEESE CHILLI",
+    "price": 250,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "MUSHROOM CHILLI DRY",
+    "price": 240,
+    "category": "Chinese Starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12077980/pexels-photo-12077980.jpeg"
+  },
+  {
+    "name": "PANEER TIKKA",
+    "price": 240,
+    "category": "Tandoori starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/33430558/pexels-photo-33430558.jpeg"
+  },
+  {
+    "name": "PANEER MALAI TIKKA",
+    "price": 300,
+    "category": "Tandoori starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29173105/pexels-photo-29173105.jpeg"
+  },
+  {
+    "name": "TANDOORI ALOO",
+    "price": 220,
+    "category": "Tandoori starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/30749027/pexels-photo-30749027.jpeg"
+  },
+  {
+    "name": "PANEER PUDINA TIKKA",
+    "price": 240,
+    "category": "Tandoori starter",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/3928854/pexels-photo-3928854.png"
+  },
+  {
+    "name": "MUSHROOM TIKKA",
+    "price": 250,
+    "category": "Tandoori starter",
+    "most selling": false,
+    "image": "https://media.istockphoto.com/id/678431492/photo/mushroom-tikka-served-in-a-platter-on-white-background.jpg?s=1024x1024&w=is&k=20&c=L2m0SWYMeT7okRYnsX2-PMKDLTrnh-CxgdNI9TwvEIw="
+  },
+  {
+    "name": "SIZZALER: VEG. / CHINESE",
+    "price": 600,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://pbs.twimg.com/media/ECUNdc4UIAAiwpw.jpg"
+  },
+  {
+    "name": "FRENCH FRIES",
+    "price": 150,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/15656541/pexels-photo-15656541.jpeg"
+  },
+  {
+    "name": "PERI PERI FRIES",
+    "price": 180,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/13796735/pexels-photo-13796735.jpeg"
+  },
+  {
+    "name": "CHEESY PERI PERI FRIES",
+    "price": 220,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/14678844/pexels-photo-14678844.jpeg"
+  },
+  {
+    "name": "RED PASTA",
+    "price": 180,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/13819558/pexels-photo-13819558.jpeg"
+  },
+  {
+    "name": "WHITE PASTA",
+    "price": 210,
+    "category": "Chinese",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/3214159/pexels-photo-3214159.jpeg"
+  },
+  {
+    "name": " MARGHERITA PIZZA",
+    "price": 200,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/33457975/pexels-photo-33457975.jpeg"
+  },
+  {
+    "name": "ONION & CAPSICUM PIZZA",
+    "price": 200,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/36831201/pexels-photo-36831201.jpeg"
+  },
+  {
+    "name": "ORIENTAL PIZZA",
+    "price": 220,
+    "category": "Pizza",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "SWEET CORN PIZZA",
+    "price": 200,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/28807411/pexels-photo-28807411.jpeg"
+  },
+  {
+    "name": "VEG. CHEESE PIZZA",
+    "price": 200,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/30574662/pexels-photo-30574662.jpeg"
+  },
+  {
+    "name": "PANEER TIKKA PIZZA",
+    "price": 220,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/11974635/pexels-photo-11974635.jpeg"
+  },
+  {
+    "name": "GOLDEN CORN PIZZA / BABY CORN PIZZA",
+    "price": 220,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35123975/pexels-photo-35123975.jpeg"
+  },
+  {
+    "name": "5 TOPPING PIZZA",
+    "price": 220,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/5639546/pexels-photo-5639546.jpeg"
+  },
+  {
+    "name": "MUSHROOM PIZZA",
+    "price": 220,
+    "category": "Pizza",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/6147822/pexels-photo-6147822.jpeg"
+  },
+  {
+    "name": "VEG FRESH SANDWICH",
+    "price": 80,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12540688/pexels-photo-12540688.png"
+  },
+  {
+    "name": "CHEESE CORN TOAST",
+    "price": 160,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/15110224/pexels-photo-15110224.jpeg"
+  },
+  {
+    "name": "CLUB SANDWICH",
+    "price": 180,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29954941/pexels-photo-29954941.jpeg"
+  },
+  {
+    "name": "VEG. GRILL SANDWICH",
+    "price": 160,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29699515/pexels-photo-29699515.jpeg"
+  },
+  {
+    "name": "MASALA SANDWICH",
+    "price": 150,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/34452165/pexels-photo-34452165.jpeg"
+  },
+  {
+    "name": "CHEESE GARLIC TOAST",
+    "price": 160,
+    "category": "Sandwich",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/13062441/pexels-photo-13062441.jpeg"
+  },
+  {
+    "name": "MUMBAI MASALA SANDWICH",
+    "price": 180,
+    "category": "Sandwich",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/12540668/pexels-photo-12540668.png"
+  },
+  {
+    "name": "CORN & GARLIC TOAST",
+    "price": 180,
+    "category": "Sandwich",
+    "most selling": true,
+    "image": ""
+  },
+  {
+    "name": "DHABA DAL",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/33430562/pexels-photo-33430562.jpeg"
+  },
+  {
+    "name": "DAL LONG LASKARA",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "DAL FRY",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/30203314/pexels-photo-30203314.jpeg"
+  },
+  {
+    "name": "DAL TADKA",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/4595313/pexels-photo-4595313.jpeg"
+  },
+  {
+    "name": "DAL MAKHNI",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/28674561/pexels-photo-28674561.jpeg"
+  },
+  {
+    "name": "JEERA ALOO",
+    "price": 170,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/5191836/pexels-photo-5191836.jpeg"
+  },
+  {
+    "name": "ALOO MATAR",
+    "price": 170,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwcQdCIeAoTzUt_E5iwlTFwMqgo5rAFkAufg&s"
+  },
+  {
+    "name": "ALLU GOBHI ADRAKI",
+    "price": 170,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/2116093/pexels-photo-2116093.jpeg"
+  },
+  {
+    "name": "DUM ALOO CHATNI WALA",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/33643313/pexels-photo-33643313.jpeg"
+  },
+  {
+    "name": "BANARASI DUM ALOO",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvTjraQmMznAUBZWSn40Uas86XZSQ_0rCjAg&s"
+  },
+  {
+    "name": "DUM ALOO KASHMIRI",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/36343374/pexels-photo-36343374.jpeg"
+  },
+  {
+    "name": "GOBHI MASALA",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://cdn.grofers.com/assets/search/usecase/banner/gobi_masala_01.png"
+  },
+  {
+    "name": "BHINDI MASALA",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://myfoodstory.com/wp-content/uploads/2025/03/Bhindi-Masala-2.jpg"
+  },
+  {
+    "name": "NIJAMI HANDI",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "CHANA MASALA",
+    "price": 210,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://boldbeanco.com/cdn/shop/articles/8C80A2C7-8BB5-44BE-BAA2-618E37A73F6A_5d5f4d1d-6887-4e86-9030-bc0e71c76979.jpg?v=1753456716&width=1200"
+  },
+  {
+    "name": "VEG. KOLHAPURI",
+    "price": 210,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://myfoodstory.com/wp-content/uploads/2022/04/Veg-Kolhapuri-3.jpg"
+  },
+  {
+    "name": "VEG. JALFEREZI",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://vegecravings.com/wp-content/uploads/2020/01/Vegetable-Jalfrezi-Recipe-Step-By-Step-Instructions-scaled.jpg.webp"
+  },
+  {
+    "name": "MALAI KOFTA ",
+    "price": 250,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOs2xAGusuDtVQI6ju8_ZwTQpLttSZLipYNg&s"
+  },
+  {
+    "name": "NAVRATAN KORMA ",
+    "price": 250,
+    "category": "Main Course",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "KAJU CURRY",
+    "price": 250,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://static.toiimg.com/photo/74221955.cms"
+  },
+  {
+    "name": "METHI MALAI MATAR ",
+    "price": 220,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://www.chefkunalkapur.com/wp-content/uploads/2021/03/Methi-Malai-Mutter-2-scaled.jpeg?v=1621962734"
+  },
+  {
+    "name": "CORN PALAK",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://www.whiskaffair.com/wp-content/uploads/2014/12/Palak-Corn-2-3-500x375.jpg"
+  },
+  {
+    "name": "LAHSUNIA PALAK",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/15108373/pexels-photo-15108373.jpeg"
+  },
+  {
+    "name": "GATTA JODHPURI",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQURLL2sFWuoQ1rH81SN1HJeDhvt9XP1WmfVA&s"
+  },
+  {
+    "name": "KADHI PAKORA ",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/03/kadhi-recipe-kadhi-pakora.jpg"
+  },
+  {
+    "name": "VEG KEEMA",
+    "price": 220,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://c.ndtvimg.com/2019-12/o1l745m8_keema-matar_625x300_11_December_19.jpg"
+  },
+  {
+    "name": "VEG. KOFTA",
+    "price": 190,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdWim6NyZEqBHMElXNKnB8c0T-J_hgseRdw&s"
+  },
+  {
+    "name": "NARGISI KOFTA",
+    "price": 240,
+    "category": "Main Course",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "SEV TAMATAR",
+    "price": 170,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUSGjEw1IeS3kKLFsEaU5yx3mvq6UZKrTFkA&s"
+  },
+  {
+    "name": "SEV BHAJI",
+    "price": 180,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://kalimirchbysmita.com/wp-content/uploads/2022/09/Sev-Bhaji-03.jpg"
+  },
+  {
+    "name": "MALAI PYAZ",
+    "price": 200,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://images.squarespace-cdn.com/content/v1/60487208da599620d0a61a05/911a0ff7-a374-4f47-9c60-ff5927fc2913/Malai-Pyaaz-4.jpg"
+  },
+  {
+    "name": "DAHI FRY",
+    "price": 150,
+    "category": "Main Course",
+    "most selling": false,
+    "image": "https://www.indianveggiedelight.com/wp-content/uploads/2020/10/dahi-tadka-featured-500x375.jpg"
+  },
+  {
+    "name": "CHILLI ALLU PYAZ",
+    "price": 150,
+    "category": "Main Course",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "MUSHROOM MASALA",
+    "price": 240,
+    "category": "Main Course",
+    "most selling": false,
+    "image": ""
+  },
+  {
+    "name": "STUFF TOMATO",
+    "price": 240,
+    "category": "Main Course",
+    "most selling": false,
+    "image": ""
+  },
+  {
+    "name": "PANEER BUTTER MASALA",
+    "price": 240,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737799/pexels-photo-12737799.jpeg"
+  },
+  {
+    "name": "PANEER HANDI",
+    "price": 240,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/30858402/pexels-photo-30858402.jpeg"
+  },
+  {
+    "name": "KADHAI PANEER",
+    "price": 240,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737816/pexels-photo-12737816.jpeg"
+  },
+  {
+    "name": "PANEER LAWABDAR",
+    "price": 250,
+    "category": "Paneer",
+    "most selling": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC-mBo_1Bt3UuTX1waZH2m4KAcFON8MdoPRA&s"
+  },
+  {
+    "name": "SHAHI PANEER",
+    "price": 250,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737805/pexels-photo-12737805.jpeg"
+  },
+  {
+    "name": "PALAK PANEER",
+    "price": 230,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/17200452/pexels-photo-17200452.jpeg"
+  },
+  {
+    "name": "MATAR PANEER",
+    "price": 240,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9609842/pexels-photo-9609842.jpeg"
+  },
+  {
+    "name": "PANEER PASANDA",
+    "price": 250,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/11115801/pexels-photo-11115801.jpeg"
+  },
+  {
+    "name": "PANEER JALFREJI",
+    "price": 230,
+    "category": "Paneer",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "MUSHROOM PANEER ",
+    "price": 250,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35041661/pexels-photo-35041661.jpeg"
+  },
+  {
+    "name": "PANEER BHURJI DRY",
+    "price": 260,
+    "category": "Paneer",
+    "most selling": false,
+    "image": "https://i1.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/09/Paneer-Bhurji-Insta-03.jpg?fit=1537%2C1024&ssl=1"
+  },
+  {
+    "name": "PANEER 2 PYAZ",
+    "price": 230,
+    "category": "Paneer",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PANEER AMRITSARI",
+    "price": 240,
+    "category": "Paneer",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PANEER ACHARI",
+    "price": 230,
+    "category": "Paneer",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "CHEESE BUTTER MASALA",
+    "price": 300,
+    "category": "cheese",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "TANDOORI ROTI PLAIN",
+    "price": 12,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35066812/pexels-photo-35066812.jpeg"
+  },
+  {
+    "name": "TANDOORI ROTI BUTTER",
+    "price": 18,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
+  },
+  {
+    "name": "TAWA ROTI PLAIN",
+    "price": 12,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12427834/pexels-photo-12427834.jpeg"
+  },
+  {
+    "name": "TAWA ROTI BUTTER",
+    "price": 18,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/36209939/pexels-photo-36209939.jpeg"
+  },
+  {
+    "name": "MISSI ROTI",
+    "price": 40,
+    "category": "Breads",
+    "most selling": true,
+    "image": "https://img-global.cpcdn.com/steps/f54412cec0e2d1ec/400x400cq80/photo.jpg"
+  },
+  {
+    "name": "GARLIC ROTI",
+    "price": 40,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/30203311/pexels-photo-30203311.jpeg"
+  },
+  {
+    "name": "LACCHA PARATHA",
+    "price": 60,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9609857/pexels-photo-9609857.jpeg"
+  },
+  {
+    "name": "VEG. STUFF PARATHA",
+    "price": 60,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg"
+  },
+  {
+    "name": "PANEER STUFF PARATHA",
+    "price": 70,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSineD4Udti6PgE9k7JAcEdnVJjZij9f0q81w&s"
+  },
+  {
+    "name": "PANEER STUFF KULCHA",
+    "price": 70,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://i0.wp.com/geteasycooking.com/wp-content/uploads/2022/02/KULCHA-SANDWICH-edit.00_06_07_01.Still034.jpg?resize=1024%2C576&ssl=1"
+  },
+  {
+    "name": "BUTTER NAAN",
+    "price": 50,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/12737662/pexels-photo-12737662.jpeg"
+  },
+  {
+    "name": "GARLIC NAAN",
+    "price": 80,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/16851842/pexels-photo-16851842.jpeg"
+  },
+  {
+    "name": "CHUR CHUR NAAN",
+    "price": 80,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Cf96XhTD6EXmWW_y02LzJIneJprOy6nAIA&s"
+  },
+  {
+    "name": "CHEESE NAAN ",
+    "price": 100,
+    "category": "Breads",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "MIX BASKET(TAND B ROTI + MISSI ROTI + LACCHA PARATHA + BUTTER NAAN + PANEER STUFF KULCHA)",
+    "price": 220,
+    "category": "Breads",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/28674556/pexels-photo-28674556.jpeg"
+  },
+  {
+    "name": "TAWA PARATHA",
+    "price": 50,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/20408462/pexels-photo-20408462.jpeg"
+  },
+  {
+    "name": "CHEESE GARLIC NAAN",
+    "price": 100,
+    "category": "Breads",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/16851842/pexels-photo-16851842.jpeg"
+  },
+  {
+    "name": "ONION",
+    "price": 30,
+    "category": "Add ons",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35552946/pexels-photo-35552946.jpeg"
+  },
+  {
+    "name": "TOMATO",
+    "price": 50,
+    "category": "Add ons",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "CUCUMBER",
+    "price": 50,
+    "category": "Add ons",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "KACHUMBER",
+    "price": 70,
+    "category": "Add ons",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "GREEN SALAD",
+    "price": 100,
+    "category": "Add ons",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/34337146/pexels-photo-34337146.jpeg"
+  },
+  {
+    "name": "BUTTER MILK",
+    "price": 30,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://www.cookwithmanali.com/masala-chaas/masala-chaas-recipe/"
+  },
+  {
+    "name": "PLAIN CURD",
+    "price": 120,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/10809259/pexels-photo-10809259.jpeg"
+  },
+  {
+    "name": "BUNDI RAITA",
+    "price": 150,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/26648792/pexels-photo-26648792.jpeg"
+  },
+  {
+    "name": "MIX VEG. RAITA",
+    "price": 150,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29699511/pexels-photo-29699511.jpeg"
+  },
+  {
+    "name": "PINEAPPLE RAITA",
+    "price": 180,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2tp-iEusElmchFEeKQtoLogEHHt9vSAGaeg&s"
+  },
+  {
+    "name": "MIX FRUIT RAITA",
+    "price": 200,
+    "category": "Curd",
+    "most selling": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuU3H2_ySY4eVX--Ve5aU9smsQrVMfwbe55g&s"
+  },
+  {
+    "name": "LASSI SWEET / SALTY",
+    "price": 80,
+    "category": "Curd",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZVOz2BkNNLe-ac2FRFJ-6g4sTdXk7y2JZBA&s"
+  },
+  {
+    "name": "ROSTED PAPAD (1 PCS)",
+    "price": 20,
+    "category": "Add ons",
+    "most selling": false,
+    "image": "https://5.imimg.com/data5/ANDROID/Default/2022/6/QE/DE/RT/146678362/product-jpeg.jpg"
+  },
+  {
+    "name": "FRIED PAPAD (1 PCS)",
+    "price": 25,
+    "category": "Add ons",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkrFXWquq_PzjM4djbYQxmg4DtJy-zwnlFA&s"
+  },
+  {
+    "name": "MASALA PAPAD (1 PCS) ",
+    "price": 30,
+    "category": "Add ons",
+    "most selling": false,
+    "image": "https://www.whiskaffair.com/wp-content/uploads/2020/09/Masala-Papad-2-3.jpg"
+  },
+  {
+    "name": "CHEESE PAPAD (1 PCS)",
+    "price": 40,
+    "category": "Add ons",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "PLAIN RICE (STEAM)",
+    "price": 150,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8923092/pexels-photo-8923092.jpeg"
+  },
+  {
+    "name": "JEERA RICE",
+    "price": 170,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/28674713/pexels-photo-28674713.jpeg"
+  },
+  {
+    "name": "VEG. PULAO",
+    "price": 170,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/7593230/pexels-photo-7593230.jpeg"
+  },
+  {
+    "name": "GREEN PEAS PULAO",
+    "price": 170,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35552985/pexels-photo-35552985.jpeg"
+  },
+  {
+    "name": "PANEER PULAO",
+    "price": 190,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://cdn.indiaphile.info/wp-content/uploads/2023/02/stp-paneer-pulao-0023.jpg?width=1200&crop_gravity=center&aspect_ratio=2:3&q=75"
+  },
+  {
+    "name": "KASHMIRI PULAO (SWEET)",
+    "price": 200,
+    "category": "Rice",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "VEG. BIRYANI",
+    "price": 220,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/15059056/pexels-photo-15059056.jpeg"
+  },
+  {
+    "name": "VEG. HYDERABADI BIRYANI",
+    "price": 250,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9738983/pexels-photo-9738983.jpeg"
+  },
+  {
+    "name": "MASALA RICE",
+    "price": 180,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/4595312/pexels-photo-4595312.jpeg"
+  },
+  {
+    "name": "DAL KICHADI",
+    "price": 170,
+    "category": "Rice",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/6363501/pexels-photo-6363501.jpeg"
+  },
+  {
+    "name": "CHOLA BHATURA",
+    "price": 200,
+    "category": "North Indian",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/4149256/pexels-photo-4149256.jpeg"
+  },
+  {
+    "name": "BHATURA (EXTRA)",
+    "price": 60,
+    "category": "North Indian",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/34389364/pexels-photo-34389364.jpeg"
+  },
+  {
+    "name": "ALOO PARATHA WITH CURD ",
+    "price": 160,
+    "category": "North Indian",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35066810/pexels-photo-35066810.jpeg"
+  },
+  {
+    "name": "PURI BHAJI",
+    "price": 200,
+    "category": "North Indian",
+    "most selling": false,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdnOQYiidexwl5M3xZV7SLIM4-MlZk-oyDA&s"
+  },
+  {
+    "name": "VANILLA SHAKE",
+    "price": 100,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/18142623/pexels-photo-18142623.jpeg"
+  },
+  {
+    "name": "STRAWBERRY SHAKE",
+    "price": 130,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg"
+  },
+  {
+    "name": "CHOCOLATE SHAKE",
+    "price": 130,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/20066464/pexels-photo-20066464.jpeg"
+  },
+  {
+    "name": "PAN SHOT",
+    "price": 130,
+    "category": "Shakes",
+    "most selling": false,
+    "image": {}
+  },
+  {
+    "name": "SITAFAL SHAKE",
+    "price": 150,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/5946789/pexels-photo-5946789.jpeg"
+  },
+  {
+    "name": "OREO SHAKE",
+    "price": 140,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8743859/pexels-photo-8743859.jpeg"
+  },
+  {
+    "name": "KITKAT SHAKE",
+    "price": 150,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/11299733/pexels-photo-11299733.jpeg"
+  },
+  {
+    "name": "COLD COFFEE + ICE CREAM",
+    "price": 130,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/26081852/pexels-photo-26081852.jpeg"
+  },
+  {
+    "name": "COLD COFFEE",
+    "price": 110,
+    "category": "Shakes",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/35544725/pexels-photo-35544725.jpeg"
+  },
+  {
+    "name": "MINT MOJITO",
+    "price": 110,
+    "category": "Summer Coolers",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/11009215/pexels-photo-11009215.jpeg"
+  },
+  {
+    "name": "BLUE LAGOONS",
+    "price": 110,
+    "category": "Summer Coolers",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/8771967/pexels-photo-8771967.jpeg"
+  },
+  {
+    "name": "PINEAPPLE PUNCH",
+    "price": 110,
+    "category": "Summer Coolers",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/20356395/pexels-photo-20356395.jpeg"
+  },
+  {
+    "name": "STRAWBERRY PUNCH",
+    "price": 110,
+    "category": "Summer Coolers",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/5668182/pexels-photo-5668182.jpeg"
+  },
+  {
+    "name": "TEA",
+    "price": 20,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://www.teaforturmeric.com/wp-content/uploads/2021/11/Masala-Chai-Tea-Recipe-Card.jpg"
+  },
+  {
+    "name": "COFFEE",
+    "price": 30,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29849772/pexels-photo-29849772.jpeg"
+  },
+  {
+    "name": "MILK",
+    "price": 30,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/4324359/pexels-photo-4324359.jpeg"
+  },
+  {
+    "name": "FRESH LIME JUICE ",
+    "price": 30,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/8679351/pexels-photo-8679351.jpeg"
+  },
+  {
+    "name": "VANILA ",
+    "price": 40,
+    "category": "Dessert",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/14105990/pexels-photo-14105990.jpeg"
+  },
+  {
+    "name": "STRAWBERRY",
+    "price": 50,
+    "category": "Dessert",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29851704/pexels-photo-29851704.jpeg"
+  },
+  {
+    "name": "AMERICAN NUTS",
+    "price": 50,
+    "category": "Dessert",
+    "most selling": true,
+    "image": "https://images.pexels.com/photos/36576778/pexels-photo-36576778.jpeg"
+  },
+  {
+    "name": "CHOCOLATE",
+    "price": 50,
+    "category": "Dessert",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/29851688/pexels-photo-29851688.jpeg"
+  },
+  {
+    "name": "MINERAL WATER",
+    "price": 20,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/9258335/pexels-photo-9258335.jpeg"
+  },
+  {
+    "name": "TETRA JUICE",
+    "price": 10,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://images.pexels.com/photos/31614260/pexels-photo-31614260.jpeg"
+  },
+  {
+    "name": "SOFT DRINK SMALL",
+    "price": 25,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://www.bigbasket.com/media/uploads/p/m/118424_7-pepsi-soft-drink.jpg"
+  },
+  {
+    "name": "SOFT DRINK LARGE",
+    "price": 50,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://m.media-amazon.com/images/I/71HoePqEvkL.jpg"
+  },
+  {
+    "name": "SOFT DRINK 2.25LTR",
+    "price": 130,
+    "category": "Drinks",
+    "most selling": false,
+    "image": "https://tiimg.tistatic.com/fp/1/007/744/india-s-no-1-refreshing-fizzy-pepsi-soft-cold-drink-2-5-litre-555.jpg"
+  }
+]
