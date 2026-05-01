@@ -351,13 +351,13 @@ function homeDelivery() {
   
   const orderDetails = Object.keys(cart).map(name => {
     return `${cart[name].qty}x ${capitalize(name)} (₹${cart[name].price * cart[name].qty})`;
-  }).join("%0A");
+  }).join("\n");
   
   const totalPrice = Object.values(cart).reduce((sum, item) => sum + (item.price * item.qty), 0);
   
-  const message = `*New Home Delivery Order*%0A%0A*Order Details:*%0A${orderDetails}%0A%0A*Total Amount:* ₹${totalPrice}%0A%0A*Please provide your delivery address below:*%0A`;
+  const message = `*New Home Delivery Order*\n\n*Order Details:*\n${orderDetails}\n\n*Total Amount:* ₹${totalPrice}\n\n*Please provide your delivery address below:*\n`;
   
-  const whatsappUrl = `https://wa.me/917620381329?text=${message}`;
+  const whatsappUrl = `https://wa.me/917620381329?text=${encodeURIComponent(message)}`;
   
   window.open(whatsappUrl, '_blank');
   toggleCart();
