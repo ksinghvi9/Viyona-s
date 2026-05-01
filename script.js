@@ -9,17 +9,34 @@ const placeholderImg = "https://images.pexels.com/photos/1640777/pexels-photo-16
 
 async function fetchMenu() {
   try {
+    const cachedData = sessionStorage.getItem("viyonasMenuData");
+    if (cachedData) {
+      allData = JSON.parse(cachedData);
+      renderBestSelling(allData);
+      processCategories(allData);
+      renderCategoryPills();
+      renderMenuItems(currentCategory);
+      return;
+    }
+
     const res = await fetch(API_URL);
+    if (!res.ok) throw new Error("Failed to fetch menu");
     const data = await res.json();
     allData = data;
+    
+    // Cache the data to prevent re-fetching on navigation or scroll back
+    sessionStorage.setItem("viyonasMenuData", JSON.stringify(data));
 
     renderBestSelling(data);
     processCategories(data);
     renderCategoryPills();
-    renderMenuItems(currentCategory); // Render 'Soup' initially
+    renderMenuItems(currentCategory);
 
   } catch (err) {
     console.error("Error fetching menu:", err);
+    document.getElementById("menuContent").innerHTML = "<p style='text-align:center; padding: 20px; color: #ff4a68;'>Failed to load menu. Please try refreshing.</p>";
+    document.getElementById("bestSelling").innerHTML = "";
+    document.getElementById("categoryContainer").innerHTML = "";
   }
 }
 
@@ -78,7 +95,7 @@ function renderBestSelling(data) {
 
     return `
       <div class="special-item">
-        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
+        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" loading="lazy" />
         <p class="special-name">${capitalize(item.name)}</p>
         <div class="special-item-bottom">
           <p class="special-price">₹${item.price}</p>
@@ -143,7 +160,7 @@ function renderMenuItems(catName) {
 
         return `
           <div class="menu-item">
-            <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
+            <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" loading="lazy" />
             <div class="item-details">
               <h4 class="item-name">${capitalize(item.name)}</h4>
               <div class="item-price-row">
@@ -301,12 +318,12 @@ function homeDelivery() {
 // ------ Gallery Logic ------
 
 const galleryData = [
-  // { type: 'image', src: 'restaurant gallery/pic.jpeg' },
-  // { type: 'image', src: 'restaurant gallery/pic1.jpeg' },
-  // { type: 'image', src: 'restaurant gallery/pic2.jpeg' },
-  // { type: 'image', src: 'restaurant gallery/pic3.jpeg' },
-  // { type: 'image', src: 'restaurant gallery/image.png' }
-  // You can add more images or videos here:
+  { type: 'image', src: 'restaurant gallery/1.jpeg' },
+  { type: 'image', src: 'restaurant gallery/2.jpeg' },
+  { type: 'image', src: 'restaurant gallery/3.jpeg' },
+  { type: 'image', src: 'restaurant gallery/4.jpeg' },
+  { type: 'video', src: 'restaurant gallery/v1.mp4' },
+  { type: 'video', src: 'restaurant gallery/v2.mp4' }
 ];
 
 function renderGallery() {
@@ -315,16 +332,19 @@ function renderGallery() {
 
   container.innerHTML = galleryData.map((item, index) => {
     if (item.type === 'video') {
+      // Support manual poster image if provided, otherwise rely on the browser trick
+      const posterAttr = item.poster ? `poster="${item.poster}"` : "";
       return `
         <div class="gallery-item" onclick="openLightbox(${index})">
-          <video src="${item.src}" muted loop playsinline></video>
+          <!-- Append #t=0.001 to force iOS/Safari to grab the first frame -->
+          <video src="${item.src}#t=0.001" ${posterAttr} muted loop playsinline preload="metadata"></video>
           <div class="play-icon-overlay"><i class="fa-solid fa-play"></i></div>
         </div>
       `;
     } else {
       return `
         <div class="gallery-item" onclick="openLightbox(${index})">
-          <img src="${item.src}" onerror="this.src='${placeholderImg}'" alt="Gallery Item ${index + 1}" />
+          <img src="${item.src}" onerror="this.src='${placeholderImg}'" alt="Gallery Item ${index + 1}" loading="lazy" />
         </div>
       `;
     }

@@ -639,3 +639,71 @@ body {
   padding: 4px;
   border-radius: 8px;
 }
+
+/* Skeleton Loading Shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+.skeleton {
+  background: #eee;
+  background-image: linear-gradient(90deg, #eee 0px, #f5f5f5 40px, #eee 80px);
+  background-size: 800px 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 8px;
+}
+
+.skeleton-text {
+  height: 14px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.skeleton-text.short {
+  width: 50%;
+}
+
+.skeleton-text.long {
+  width: 80%;
+}
+
+.skeleton-pill {
+  width: 80px;
+  height: 44px;
+  border-radius: 30px;
+  flex-shrink: 0;
+}
+
+.skeleton-special {
+  width: 130px;
+  height: 120px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+}
+
+.skeleton-menu-item {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.skeleton-menu-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 12px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.skeleton-menu-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
