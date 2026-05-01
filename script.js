@@ -95,7 +95,7 @@ function renderBestSelling(data) {
 
     return `
       <div class="special-item">
-        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" loading="lazy" />
+        <img src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
         <p class="special-name">${capitalize(item.name)}</p>
         <div class="special-item-bottom">
           <p class="special-price">₹${item.price}</p>
@@ -160,7 +160,7 @@ function renderMenuItems(catName) {
 
         return `
           <div class="menu-item">
-            <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" loading="lazy" />
+            <img class="item-img" src="${imgSrc}" onerror="this.src='${placeholderImg}'" alt="${item.name}" />
             <div class="item-details">
               <h4 class="item-name">${capitalize(item.name)}</h4>
               <div class="item-price-row">
